@@ -43,3 +43,14 @@ colony_stress <- colony_states |>
   dplyr::inner_join(stressor_states, by = c("year", "months", "state"))
 
 
+# Inspirations --------------------------------------------------------------------------------------
+
+# 1.  [Bee With Ballonhand Finished Print of My Original Watercolour](https://pin.it/3AsyAnA)
+# 2.  [Pattern Design Honey Bees & Bumble Bees — Amy Holliday Illustration](https://pin.it/5jm1VDg)
+
+
+## Sketch -------------------------------------------------------------------------------------------
+
+# img/bee_colonies.png
+
+
