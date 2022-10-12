@@ -67,3 +67,34 @@ dubois_final <- dubois_lead |>
   dplyr::mutate(new_value = ifelse(year < year_trick, m*year + intercept, value))
 
 
+#TODO: adjust percent labels
+# Plot ----------------------------------------------------------------------------------------------
+
+library(ggplot2)
+
+p <- ggplot(dubois_final) + 
+  geom_area(data = df, aes(x = year, y = value), fill = "#141112", color = "#141112") +
+  geom_area(aes(x = year, y = new_value), fill = "#c72545") +
+  coord_flip() +
+  scale_x_reverse(breaks = dubois$Year, labels = dubois$Year) + 
+  scale_y_reverse(breaks = 0:3, labels = c("", "1%", "2%", "3%"), position = "right", expand = expansion(0, 0.5)) +
+  geom_line(aes(x = year, y = new_value), color = "white") +
+  geom_text(aes(x = Year, y = -0.25, label = Free_label), hjust = 0.5, size = 3) +
+  geom_segment(data = dplyr::summarise(dplyr::group_by(dubois_final, Year), value = dplyr::first(value)),
+               aes(y = 0, yend = value, x = Year, xend = Year), color = "white") +
+  labs(
+    title = "SLAVES AND FREE NEGROES",
+    caption = "Source: Du Bois · Graphic: Matheus S. Rodrigues",
+    x = "", y = ""
+  ) +
+  theme(
+    plot.background = element_rect(fill = "#dfd0bf"),
+    panel.background = element_blank(),
+    panel.grid = element_blank(),
+    plot.margin = margin(t = 20, l = 120, r = 120, b = 20),
+    plot.title = element_text(hjust = 0.5),
+    plot.caption = element_text(hjust = 0.5),
+    axis.ticks.y = element_blank()
+  )
+
+ggsave(filename = here::here("2022/week_07/plot.png"), plot = p, width = 7, height = 10, units = "in", dpi = 320)
