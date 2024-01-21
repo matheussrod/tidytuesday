@@ -883,6 +883,14 @@
       "Hash": "7ce2733a9826b3aeb1775d56fd305472",
       "Requirements": []
     },
+    "maps": {
+      "Package": "maps",
+      "Version": "3.4.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5f7886e53a3b39d4a110c7bd7fce9164",
+      "Requirements": []
+    },
     "markdown": {
       "Package": "markdown",
       "Version": "1.7",
