@@ -437,9 +437,15 @@
     },
     "ggchicklet": {
       "Package": "ggchicklet",
-      "Version": "0.5.0",
-      "Source": "unknown",
-      "Hash": "060b1c511fb3ccabebf385bb186bb2a5",
+      "Version": "0.6.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "ggchicklet",
+      "RemoteUsername": "hrbrmstr",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "64c468dd0900153be1690dbfc5cfb35710da8183",
+      "Hash": "7b543869fca551228fb5e0fea535faa1",
       "Requirements": [
         "ggplot2"
       ]
