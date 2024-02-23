@@ -56,12 +56,11 @@ p1 <- ggplot(words, aes(label = x, size = n)) +
     caption = 'Source: R Consortium · Graphic: Matheus S. Rodrigues'
   ) +
   theme(
-    text = element_text(family = f2),
     plot.margin = margin(rep(30, 4)),
     panel.background = element_blank(),
     plot.title = element_text(family = f1, size = 20, face = 'bold', color = r_color, hjust = 0.5),
-    plot.subtitle = element_text(size = 10, hjust = 0.5, color = r_color),
-    plot.caption = element_text(size = 7, hjust = 0.5, color = 'grey50')
+    plot.subtitle = element_text(family = f2, size = 10, hjust = 0.5, color = r_color),
+    plot.caption = element_text(family = f2, size = 7, hjust = 0.5, color = 'grey50')
   )
 
 showtext::showtext_opts(dpi = 300)
