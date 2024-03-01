@@ -271,6 +271,18 @@
         "sys"
       ]
     },
+    "cropcircles": {
+      "Package": "cropcircles",
+      "Version": "0.2.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b8c99af635a5d03a20153ede17cc51ec",
+      "Requirements": [
+        "glue",
+        "magick",
+        "purrr"
+      ]
+    },
     "curl": {
       "Package": "curl",
       "Version": "5.0.1",
