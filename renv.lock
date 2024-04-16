@@ -243,10 +243,10 @@
     },
     "cpp11": {
       "Package": "cpp11",
-      "Version": "0.4.4",
+      "Version": "0.4.7",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "3f7d8664d7324406cd10cd650ad85e5f",
+      "Repository": "RSPM",
+      "Hash": "5a295d7d963cc5035284dcdbaf334f4e",
       "Requirements": []
     },
     "crayon": {
@@ -462,6 +462,20 @@
         "ggplot2"
       ]
     },
+    "ggfittext": {
+      "Package": "ggfittext",
+      "Version": "0.10.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d8f6698dff551267fc335b9768cda008",
+      "Requirements": [
+        "cli",
+        "ggplot2",
+        "gridtext",
+        "shades",
+        "stringi"
+      ]
+    },
     "ggforce": {
       "Package": "ggforce",
       "Version": "0.4.1",
@@ -530,10 +544,10 @@
     },
     "ggplot2": {
       "Package": "ggplot2",
-      "Version": "3.4.2",
+      "Version": "3.5.0",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "3a147ee02e85a8941aad9909f1b43b7b",
+      "Repository": "RSPM",
+      "Hash": "52ef83f93f74833007f193b2d4c159a2",
       "Requirements": [
         "MASS",
         "cli",
@@ -1288,6 +1302,14 @@
         "units"
       ]
     },
+    "shades": {
+      "Package": "shades",
+      "Version": "1.4.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "3a2cf5eecb2cbca814d01d56bfb51494",
+      "Requirements": []
+    },
     "shiny": {
       "Package": "shiny",
       "Version": "1.8.0",
@@ -1498,6 +1520,18 @@
       "Hash": "8548b44f79a35ba1791308b61e6012d7",
       "Requirements": [
         "cpp11"
+      ]
+    },
+    "treemapify": {
+      "Package": "treemapify",
+      "Version": "2.5.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "bbba5d34efaec259a45f18539b449b9a",
+      "Requirements": [
+        "cli",
+        "ggfittext",
+        "ggplot2"
       ]
     },
     "tweenr": {
