@@ -228,6 +228,14 @@
       "Hash": "d691c61bff84bd63c383874d2d0c3307",
       "Requirements": []
     },
+    "countrycode": {
+      "Package": "countrycode",
+      "Version": "1.6.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "08b7058813f13c7a1bb294fea9045e3a",
+      "Requirements": []
+    },
     "cowplot": {
       "Package": "cowplot",
       "Version": "1.1.2",
@@ -544,10 +552,10 @@
     },
     "ggplot2": {
       "Package": "ggplot2",
-      "Version": "3.5.0",
+      "Version": "3.4.4",
       "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "52ef83f93f74833007f193b2d4c159a2",
+      "Repository": "CRAN",
+      "Hash": "313d31eff2274ecf4c1d3581db7241f9",
       "Requirements": [
         "MASS",
         "cli",
@@ -718,10 +726,10 @@
     },
     "gtable": {
       "Package": "gtable",
-      "Version": "0.3.4",
+      "Version": "0.3.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b29cf3031f49b04ab9c852c912547eef",
+      "Hash": "e18861963cbc65a27736e02b3cd3c4a0",
       "Requirements": [
         "cli",
         "glue",
@@ -995,10 +1003,10 @@
     },
     "munsell": {
       "Package": "munsell",
-      "Version": "0.5.0",
+      "Version": "0.5.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6dfe8bf774944bd5595785e3229d8771",
+      "Hash": "4fd8900853b746af55b81fda99da7695",
       "Requirements": [
         "colorspace"
       ]
@@ -1658,10 +1666,10 @@
     },
     "withr": {
       "Package": "withr",
-      "Version": "2.5.2",
+      "Version": "3.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "4b25e70111b7d644322e9513f403a272",
+      "Hash": "d31b6c62c10dcf11ec530ca6b0dd5d35",
       "Requirements": []
     },
     "wk": {
